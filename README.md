@@ -16,6 +16,12 @@ Python 3.7.3
 $ pip3 --version
 pip 18.1 from /usr/lib/python3/dist-packages/pip (python 3.7)
 
+$ node --version
+v14.6.0
+
+$ npm --version
+6.14.6
+
 $ cargo --version
 cargo 1.45.0 (744bd1fbb 2020-06-15)
 ```
@@ -26,6 +32,17 @@ cargo 1.45.0 (744bd1fbb 2020-06-15)
 
 ```
 Raspberry Pi OS に最初っから入っています。
+```
+
+### Node.js
+
+```
+$ curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash -
+
+$ sudo apt-get install -y nodejs
+
+$ node --version
+v14.6.0
 ```
 
 ### Rust
