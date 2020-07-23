@@ -24,6 +24,11 @@ $ npm --version
 
 $ cargo --version
 cargo 1.45.0 (744bd1fbb 2020-06-15)
+
+$ java --version
+openjdk 11.0.7 2020-04-14
+OpenJDK Runtime Environment (build 11.0.7+10-post-Raspbian-3deb10u1)
+OpenJDK Server VM (build 11.0.7+10-post-Raspbian-3deb10u1, mixed mode)
 ```
 
 ## Install
@@ -54,4 +59,17 @@ $ source ~/.profile
 
 $ cargo --version
 cargo 1.45.0 (744bd1fbb 2020-06-15)
+```
+
+### Java
+
+```
+$ sudo apt install default-jdk
+
+$ java --version
+openjdk 11.0.7 2020-04-14
+OpenJDK Runtime Environment (build 11.0.7+10-post-Raspbian-3deb10u1)
+OpenJDK Server VM (build 11.0.7+10-post-Raspbian-3deb10u1, mixed mode)
+
+$ curl -sSL https://pi4j.com/install | sudo bash
 ```
