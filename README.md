@@ -13,6 +13,9 @@ Codename:	buster
 $ python3 --version
 Python 3.7.3
 
+$ pip3 --version
+pip 18.1 from /usr/lib/python3/dist-packages/pip (python 3.7)
+
 $ cargo --version
 cargo 1.45.0 (744bd1fbb 2020-06-15)
 ```
