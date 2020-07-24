@@ -65,6 +65,9 @@ v14.6.0
 
 ```
 Raspberry Pi OS に最初っから入っています。
+
+$ gcc -Wall -o main main.c -lwiringPi
+$ ./main
 ```
 
 ### Shell Script
