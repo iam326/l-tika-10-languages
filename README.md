@@ -13,14 +13,17 @@ Codename:	buster
 $ python3 --version
 Python 3.7.3
 
-$ pip3 --version
-pip 18.1 from /usr/lib/python3/dist-packages/pip (python 3.7)
-
 $ node --version
 v14.6.0
 
 $ npm --version
 6.14.6
+
+$ gcc --version
+gcc (Raspbian 8.3.0-6+rpi1) 8.3.0
+Copyright (C) 2018 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 
 $ cargo --version
 cargo 1.45.0 (744bd1fbb 2020-06-15)
@@ -48,6 +51,12 @@ $ sudo apt-get install -y nodejs
 
 $ node --version
 v14.6.0
+```
+
+### C
+
+```
+Raspberry Pi OS に最初っから入っています。
 ```
 
 ### Rust
