@@ -81,4 +81,7 @@ OpenJDK Runtime Environment (build 11.0.7+10-post-Raspbian-3deb10u1)
 OpenJDK Server VM (build 11.0.7+10-post-Raspbian-3deb10u1, mixed mode)
 
 $ curl -sSL https://pi4j.com/install | sudo bash
+
+$ javac -classpath .:classes:/opt/pi4j/lib/'*' -d . Ltika.java
+$ java -classpath .:classes:/opt/pi4j/lib/'*' Ltika
 ```
