@@ -25,6 +25,14 @@ Copyright (C) 2018 Free Software Foundation, Inc.
 This is free software; see the source for copying conditions.  There is NO
 warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 
+$ bash --version
+GNU bash, バージョン 5.0.3(1)-release (arm-unknown-linux-gnueabihf)
+Copyright (C) 2019 Free Software Foundation, Inc.
+ライセンス GPLv3+: GNU GPL バージョン 3 またはそれ以降 <http://gnu.org/licenses/gpl.html>
+
+This is free software; you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+
 $ cargo --version
 cargo 1.45.0 (744bd1fbb 2020-06-15)
 
@@ -54,6 +62,12 @@ v14.6.0
 ```
 
 ### C
+
+```
+Raspberry Pi OS に最初っから入っています。
+```
+
+### Shell Script
 
 ```
 Raspberry Pi OS に最初っから入っています。
