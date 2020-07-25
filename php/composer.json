@@ -1,0 +1,12 @@
+{
+    "name": "pi/php",
+    "authors": [
+        {
+            "name": "t.takahashi",
+            "email": "t.takahashi@example.com"
+        }
+    ],
+    "require": {
+        "piphp/gpio": "^0.3.3"
+    }
+}
