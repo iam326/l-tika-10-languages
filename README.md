@@ -49,6 +49,15 @@ Zend Engine v3.3.19, Copyright (c) 1998-2018 Zend Technologies
     
 $ composer --version
 Composer version 1.10.9 2020-07-16 12:57:00
+
+$ ruby --version
+ruby 2.5.5p157 (2019-03-15 revision 67260) [arm-linux-gnueabihf]
+
+$ gem --version
+2.7.6.2
+
+$ bundler -v
+Bundler version 2.1.4
 ```
 
 ## Install
@@ -122,3 +131,19 @@ $ sudo mv composer.phar /usr/local/bin/composer
 $ composer install
 $ sudo php main.php
 ```
+
+### Ruby
+
+```
+$ sudo apt-get install ruby
+
+$ ruby --version
+ruby 2.5.5p157 (2019-03-15 revision 67260) [arm-linux-gnueabihf]
+
+$ sudo apt-get install ruby2.5-dev libssl-dev
+$ sudo gem install bundler
+$ bundle install
+
+$ sudo ruby main.rb
+```
+
