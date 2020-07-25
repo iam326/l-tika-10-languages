@@ -36,6 +36,28 @@ There is NO WARRANTY, to the extent permitted by law.
 $ cargo --version
 cargo 1.45.0 (744bd1fbb 2020-06-15)
 
+$ perl --version
+
+This is perl 5, version 28, subversion 1 (v5.28.1) built for arm-linux-gnueabihf-thread-multi-64int
+(with 61 registered patches, see perl -V for more detail)
+
+Copyright 1987-2018, Larry Wall
+
+Perl may be copied only under the terms of either the Artistic License or the
+GNU General Public License, which may be found in the Perl 5 source kit.
+
+Complete documentation for Perl, including FAQ lists, should be found on
+this system using "man perl" or "perldoc perl".  If you have access to the
+Internet, point your browser at http://www.perl.org/, the Perl Home Page.
+
+$ cpan --version
+Loading internal logger. Log::Log4perl recommended for better logging
+/usr/bin/cpan version 1.64 calling Getopt::Std::getopts (version 1.12 [paranoid]),
+running under Perl version 5.28.1.
+  [Now continuing due to backward compatibility and excessive paranoia.
+   See 'perldoc Getopt::Std' about $Getopt::Std::STANDARD_HELP_VERSION.]
+Nothing to install!
+
 $ java --version
 openjdk 11.0.7 2020-04-14
 OpenJDK Runtime Environment (build 11.0.7+10-post-Raspbian-3deb10u1)
@@ -105,6 +127,17 @@ $ cargo --version
 cargo 1.45.0 (744bd1fbb 2020-06-15)
 ```
 
+### Perl
+
+```
+Raspberry Pi OS に最初っから入っています。
+
+$ cpan
+cpan[1]> install RPi::WiringPi
+cpan[2]> install RPi::Const
+cpan[3]> exit
+```
+
 ### Java
 
 ```
@@ -120,6 +153,7 @@ $ curl -sSL https://pi4j.com/install | sudo bash
 $ javac -classpath .:classes:/opt/pi4j/lib/'*' -d . Ltika.java
 $ java -classpath .:classes:/opt/pi4j/lib/'*' Ltika
 ```
+
 ### PHP
 
 ```
