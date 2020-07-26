@@ -85,6 +85,10 @@ $ bundler -v
 Bundler version 2.1.4
 ```
 
+## 配線図
+
+![配膳図](./wiring-diagram.png)
+
 ## Install
 
 ### Python
