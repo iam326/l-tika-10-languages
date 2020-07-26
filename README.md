@@ -36,6 +36,9 @@ There is NO WARRANTY, to the extent permitted by law.
 $ cargo --version
 cargo 1.45.0 (744bd1fbb 2020-06-15)
 
+$ go version
+go version go1.14.6 linux/arm
+
 $ perl --version
 
 This is perl 5, version 28, subversion 1 (v5.28.1) built for arm-linux-gnueabihf-thread-multi-64int
@@ -125,6 +128,19 @@ $ source ~/.profile
 
 $ cargo --version
 cargo 1.45.0 (744bd1fbb 2020-06-15)
+```
+
+### Golang
+
+```
+$ wget https://golang.org/dl/go1.14.6.linux-armv6l.tar.gz
+$ sudo tar -C /usr/local -xzf go1.14.6.linux-armv6l.tar.gz
+
+$ echo export 'PATH=$PATH:/usr/local/go/bin'  >> ~/.profile
+$ source ~/.profile
+
+$ go version
+go version go1.14.6 linux/arm
 ```
 
 ### Perl
