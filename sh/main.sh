@@ -2,17 +2,17 @@
 
 set -euo pipefail
 
-LED_PIN=4
+LED_PIN=23
 
-gpio mode $LED_PIN out
+gpio export $LED_PIN out
 
-trap 'gpio mode $LED_PIN in' SIGINT
+trap 'gpio unexport $LED_PIN' SIGINT
 
 while true
 do
-  gpio write $LED_PIN 1
+  gpio -g write $LED_PIN 1
   sleep 1
-  gpio write $LED_PIN 0
+  gpio -g write $LED_PIN 0
   sleep 1
 done
 
