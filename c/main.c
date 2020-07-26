@@ -24,8 +24,6 @@ int main(void) {
     delay(1000);
   }
 
-  pinMode(LED_PIN, INPUT);
-
   return 0;
 }
 
