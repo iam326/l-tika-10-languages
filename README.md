@@ -60,21 +60,21 @@ $ gcc -Wall -o main main.c -lwiringPi
 $ ./main
 ```
 
-## Shell Script
-
-Raspberry Pi OS に最初っから入っています。
+## Golang
 
 ```
-$ bash --version
-GNU bash, バージョン 5.0.3(1)-release (arm-unknown-linux-gnueabihf)
-Copyright (C) 2019 Free Software Foundation, Inc.
-ライセンス GPLv3+: GNU GPL バージョン 3 またはそれ以降 <http://gnu.org/licenses/gpl.html>
+$ wget https://golang.org/dl/go1.14.6.linux-armv6l.tar.gz
+$ sudo tar -C /usr/local -xzf go1.14.6.linux-armv6l.tar.gz
 
-This is free software; you are free to change and redistribute it.
-There is NO WARRANTY, to the extent permitted by law.
+$ echo export 'PATH=$PATH:/usr/local/go/bin'  >> ~/.profile
+$ source ~/.profile
 
-$ cd sh/
-$ ./main.sh
+$ go version
+go version go1.14.6 linux/arm
+
+$ cd golang/
+$ go build main.go 
+$ ./main
 ```
 
 ## Rust
@@ -91,21 +91,21 @@ $ cd rust/ltika/
 $ cargo run
 ```
 
-## Golang
+## Shell Script
+
+Raspberry Pi OS に最初っから入っています。
 
 ```
-$ wget https://golang.org/dl/go1.14.6.linux-armv6l.tar.gz
-$ sudo tar -C /usr/local -xzf go1.14.6.linux-armv6l.tar.gz
+$ bash --version
+GNU bash, バージョン 5.0.3(1)-release (arm-unknown-linux-gnueabihf)
+Copyright (C) 2019 Free Software Foundation, Inc.
+ライセンス GPLv3+: GNU GPL バージョン 3 またはそれ以降 <http://gnu.org/licenses/gpl.html>
 
-$ echo export 'PATH=$PATH:/usr/local/go/bin'  >> ~/.profile
-$ source ~/.profile
+This is free software; you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
 
-$ go version
-go version go1.14.6 linux/arm
-
-$ cd golang/
-$ go build main.go 
-$ ./main
+$ cd sh/
+$ ./main.sh
 ```
 
 ## Java
