@@ -171,6 +171,8 @@ $ sudo ruby main.rb
 
 ## Perl
 
+Raspberry Pi OS に最初っから入っています。
+
 ```
 $ perl --version
 
